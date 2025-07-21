@@ -1,0 +1,30 @@
+# beta_lactam_MDR_E_coli_hts_AMP
+
+Repository of high-throughput screening code of AMP
+against targets of beta-lactam Escherichia coli.
+
+===
+
+Author:         James Aaron Erang [1*]
+Collaborator:   Angela Wu [2]
+Supervisor:     Jerwin R. Undan [1,3]
+
+[1] Department of Biological Sciences
+    College of Science
+    Central Luzon State University
+    3120 Science City of Muñoz, Philippines
+[2] School of Life and Environmental Sciences
+    Faculty of Science, Engineering, and Built Environment
+    Deakin University Melbourne Burwood
+    3125 Victoria, Australia
+[3] Biotechnology and Analytical Laboratory,
+    Department of Biological Sciences
+    College of Science
+    Central Luzon State University
+    3120 Science City of Muñoz, Philippines
+
+* corresponding author: erang.james@clsu2.edu.ph
+
+===
+
+Structure of repository:
