@@ -1,0 +1,3 @@
+build-essential
+libboost-all-dev
+swig

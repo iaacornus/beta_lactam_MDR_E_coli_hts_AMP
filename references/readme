@@ -1,0 +1,13 @@
+= in silico studies on antimicrobial activity =
+= of magainin ii against several druggable =
+= targets from AMR strains of E. coli =
+
+this repo contains all of the functions and files
+required for molecular docking and molecular dynamics
+study of magainin ii against various genes and enzymes
+associated with cancer pathogenesis.
+
+PROJ:   Biotechnology and Analytical Laboratory,
+        Department of Biological Sciences,
+        College of Science,
+        Central Luzon State University
