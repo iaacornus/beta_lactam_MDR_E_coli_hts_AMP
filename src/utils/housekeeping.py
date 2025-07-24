@@ -6,13 +6,10 @@ class HouseKeeping:
     def __init__(self, PATHS_ARR) -> None:
         self.PATHS_ARR = PATHS_ARR
 
-    def create_output_dir(self, path_) -> int:
-        if path_ in self.PATHS_ARR and path.exists(path_):
-            return 1
+    def create_output_dir(self) -> int:
 
-        self.PATHS_ARR.append(path_)
+        for path_ in self.PATHS_ARR:
+            if not path.exists(path_):
+                mkdir(path_)
 
-        if not path.exists(path_): # double checking
-            mkdir(path_)
-
-        return 0
+        return 1
