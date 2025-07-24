@@ -29,30 +29,62 @@ Supervisor:     Jerwin R. Undan [1,3]
 
 Structure of repository:
 
-beta_lactam_MDR_E_coli_hts_AMP/
-    `-- README
-    `-- references # code from other project
-    |   `-- docking # contains all of the code
-    |       `-- chemical_similarity.ipynb # jupyter notebook for chemical similarity maps
-    |       `-- output # all of the outputs
-    |       |   `-- chem_figs # molecular struct generated using RDKit
-    |       |   `-- data # data retrieved and related to project
-    |       |       `-- activities # bioactivity data
-    |       |       `-- AMP # AMP molecular data
-    |       |       `-- targets # data about targets
-    |       `-- readme
-    |       `-- requirements.txt # requirements for installation of conda env
-    |       `-- src # code of the project
-    |       |   `-- archive # unused modules
-    |       |   `-- __init__.py
-    |       |   `-- in_silico.ipynb # jupyter notebook containing all the in silico works
-    |       |   `-- utils # user modules imported by in_silico.ipynb
-    |       |       `-- calculation.py
-    |       |       `-- housekeeping.py
-    |       |       `-- __init__.py
-    |       |       `-- visualization.py
-    |       `-- sys_deps.txt # requirements of system for installation of modules
-    `-- src # this current project's code
-        `-- beta_lactam_MDR_E_coli_hts_AMP.ipynb
-        `-- __init__.py
+references # code from other project
+chemical_similarity.ipynb # jupyter notebook for chemical similarity maps
+requirements.txt # requirements for installation of conda env
+src # code of the project
+archive # unused modules
+in_silico.ipynb # jupyter notebook containing all the in silico works
+utils # user modules imported by in_silico.ipynb
+sys_deps.txt # requirements of system for installation of modules
+src # this current project's code
 
+beta_lactam_MDR_E_coli_hts_AMP/
+    ├── data
+    │   └── raw
+    │       ├── APD3
+    │       │   ├── amphibianAMPs_APD2024.fasta
+    │       │   ├── animalAMPs_APD2024a.fasta
+    │       │   ├── bacteriaAMPs_APD2024.fasta
+    │       │   ├── humanAMPs_APD2024.fasta
+    │       │   ├── insectAMPs_APD2024.fasta
+    │       │   ├── naturalAMPs_APD2024a.fasta
+    │       │   └── plantAMPs_APD2024.fasta
+    │       └── PDB
+    │           ├── data_query_AMP_pdb.csv
+    │           └── DATASET_RCSB_PDB_QUERY.ods
+    ├── output
+    │   ├── activities
+    │   ├── AMP
+    │   ├── chem_figs
+    │   └── targets
+    ├── rcsb_pdb_batch_download_script.sh
+    ├── README
+    ├── references
+    │   ├── chemical_similarity.ipynb
+    │   ├── readme
+    │   ├── requirements.txt
+    │   ├── src
+    │   │   ├── __init__.py
+    │   │   ├── in_silico.ipynb
+    │   │   └── utils
+    │   │       ├── calculation.py
+    │   │       ├── housekeeping.py
+    │   │       ├── __init__.py
+    │   │       └── visualization.py
+    │   └── sys_deps.txt
+    └── src
+        ├── beta_lactam_MDR_E_coli_hts_AMP.ipynb
+        ├── __init__.py
+        ├── __pycache__
+        │   └── calculation.cpython-310.pyc
+        └── utils
+            ├── calculation.py
+            ├── housekeeping.py
+            ├── __init__.py
+            ├── __pycache__
+            │   ├── calculation.cpython-310.pyc
+            │   ├── housekeeping.cpython-310.pyc
+            │   ├── __init__.cpython-310.pyc
+            │   └── visualization.cpython-310.pyc
+            └── visualization.py
